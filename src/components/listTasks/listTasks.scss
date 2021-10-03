@@ -1,0 +1,26 @@
+@import '../../base.scss';
+
+.listTasksContainer {
+  border: 1px solid #16181b;
+  padding: 10px 0 0 0;
+  .task-item {
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .list-buttons {
+    display: flex;
+    justify-content: flex-end;
+    grid-gap: 10px;
+  }
+
+  .footer {
+    height: 80px;
+    background-color: #e7e7e7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: 0 -24px;
+  }
+}

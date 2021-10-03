@@ -1,0 +1,11 @@
+@import '../../base.scss';
+
+.errorMessage {
+  color: $validate-color;
+  font-size: 12px;
+};
+
+.newTaskContainer {
+  border: 1px solid #16181b;
+  padding: 10px 0;
+}
